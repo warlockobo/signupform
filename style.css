@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'runtime';
+    src: url(runtime-font/RuntimeRegular-m2Odx.otf)
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.leftside {
+    display: flex;
+    background-image: url(images/Sad\ Gray\ Cat.jpg);
+    width: 40%;
+}
+
+.logotext {
+    font-family: 'runtime';
+}
+
+.logobackground {
+    width: 50%;
+    height: 100%;
+}
