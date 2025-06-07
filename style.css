@@ -1,6 +1,7 @@
 @font-face {
-    font-family: 'runtime';
-    src: url(runtime-font/RuntimeRegular-m2Odx.otf)
+    font-family: 'Norse';
+    src: url(norse/Norse.otf);
+    src: url(norse/Norsebold.otf);
 }
 body {
     margin: 0;
@@ -33,7 +34,8 @@ body {
 }
 .logotext {
     display: flex;
-    font-family: 'runtime';
+    font-family: 'Norse';
+    font-weight: bold;
     align-items: center;
     justify-content: center;
     font-size: 10vh;
