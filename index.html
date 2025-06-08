@@ -26,27 +26,39 @@
                     <p id="motivation">Let's do this!</p>
                     <form action="">
                         <div class="formrow1">
-                            <label for="first_name">FIRST NAME</label>
-                            <input type="text" id="first_name" name="first_name"/>
-                            <label for="last_name">LAST NAME</label>
-                            <input type="text" id="last_name" name="last_name"/>
+                            <div class="firstname">
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name" name="first_name"/>
+                            </div>
+                            <div class="lastname">
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name" name="last_name"/>
+                            </div>
                         </div>
                         <div class="formrow2">
-                            <label for="email">EMAIL</label>
-                            <input type="text" id="email" name="email"/>
-                            <label for="phone">PHONE NUMBER</label>
-                            <input type="tel" id="phone" name="phone"/>
+                            <div class="email">
+                                <label for="email">EMAIL</label>
+                                <input type="text" id="email" name="email"/>
+                            </div>
+                            <div class="phone">
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="tel" id="phone" name="phone"/>
+                            </div>
                         </div>
                         <div class="formrow3">
-                            <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="password"/>
-                            <label for="password_confirm">CONFIRM PASSWORD</label>
-                            <input type="password" id="password_confirm" name="password_confirm"/>
+                            <div class="password">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" name="password"/>
+                            </div>
+                            <div class="passwordconfirm">
+                                <label for="password_confirm">CONFIRM PASSWORD</label>
+                                <input type="password" id="password_confirm" name="password_confirm"/>
+                            </div>
                         </div>
                     </form>
             </div>
             <div class="account">
-                <button id="createaccount">Create Account</button>
+                <button type="submit" id="createaccount">Create Account</button>
                 <p>Already have an account? <a href="url">Log in</a></p>
             </div>
         </div>

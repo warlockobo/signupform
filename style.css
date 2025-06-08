@@ -67,10 +67,33 @@ body {
     padding-top: 3rem;
 }
 .form {
-    height: 35vh;
+    height: 40vh;
     box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
     z-index: 2;
     padding-left: 3rem;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    height: 35vh;
+}
+
+.formrow1, .formrow2, .formrow3 {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-bottom: 5px;
+}
+
+.firstname, .lastname, .email, .phone, .password, .passwordconfirm {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input {
+    width: 15vw;
+    height: 2vh;
 }
 #motivation {
     font-size: 1.5rem;
@@ -92,7 +115,20 @@ input {
     border: 1px solid #E5E7EB;
     border-radius: 4px;
 }
-
+input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  }
+  
+input[type="password"]:invalid {
+    border-color: #c53030;
+  }
+  
+input[type="password"]:focus:invalid {
+    border-color: #c53030;
+  }
+  
 
 .account {
     background-color: #F0EAD6;
