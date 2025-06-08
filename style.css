@@ -51,7 +51,7 @@ body {
     flex-direction: column;
 }
 .blurb {
-    height: 35vh;
+    height: 30vh;
     background-color: #F0EAD6;
     align-items: center;
     justify-content: center;
@@ -76,7 +76,7 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    height: 35vh;
+    height: 30vh;
 }
 
 .formrow1, .formrow2, .formrow3 {
@@ -125,6 +125,7 @@ input[type="password"]:invalid {
     border-color: #c53030;
   }
   
+
 input[type="password"]:focus:invalid {
     border-color: #c53030;
   }
