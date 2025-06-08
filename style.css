@@ -53,18 +53,21 @@ body {
 .blurb {
     height: 35vh;
     background-color: #F0EAD6;
-    padding-left: 3rem;
-    padding-right: 20rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .blurbtext {
-    font-size: 1.5rem;
+    font-size: 3vh;
     font-weight: bold;
-    padding-top: 8rem;
-    text-wrap: none;
+    justify-content: center;
+    overflow: hidden;
+    padding-left: 3rem;
+    padding-right: 20rem;
+    padding-top: 3rem;
 }
 .form {
-    height: 30vh;
+    height: 35vh;
     box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
     z-index: 2;
     padding-left: 3rem;
@@ -93,7 +96,7 @@ input {
 
 .account {
     background-color: #F0EAD6;
-    height: 35vh;
+    height: 30vh;
     padding: 2rem 3rem;
     z-index: 1;
 }
